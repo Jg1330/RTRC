@@ -117,7 +117,7 @@ public class QuotationManagement {
 	    JavascriptExecutor js = (JavascriptExecutor)driver;
 	    js.executeScript("window.scrollTo(0, 250)");
 	    
-	    WebElement quo = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='quotation_number']")));
+	 /*   WebElement quo = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='quotation_number']")));
 	    String value = quo.getAttribute("value");
 	    System.out.print(">>"+value);
 	    int i = Integer.parseInt(value);
@@ -127,7 +127,7 @@ public class QuotationManagement {
 	    System.out.print(">>"+j);
 	    quo.clear();
 	    quo.sendKeys("00000"+qou1);
-	    Thread.sleep(2000);
+	    Thread.sleep(2000);*/
 	  
 	    
 	    WebElement dueDate = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='due_date']")));

@@ -4,6 +4,9 @@ public class Data {
 
 	static String email = "RTRC_Admin";
 	static String password = "1linkwok@";
+	static String emailhead = "rtrcqchead";
+	static String passwordhead = "1linkwok@";
+	static String analystemail = "rtrtcqcanalyst";
 	static String address = "Adroda,Bavla,Ahmedabad,Gujarat,382220";
 	static String ref = "Demo Reference";
 	static String refDate = "09/15/2023";
@@ -23,4 +26,18 @@ public class Data {
 	static String method = "New Method";
 	static String route = "New Route";
 	static String details = "Demo Details";
+	static String name = "Annealing Demo Test";
+	static String diameter1 = "100";
+	static String diameter2 = "150";
+	static String diameter3 = "128";
+	static String diameter4 = "132";
+	static String original1 = "225";
+	static String original2 = "556";
+	static String original3 = "112";
+	static String original4 = "335";
+	static String elong1 = "652";
+	static String elong2 = "315";
+	static String elong3 = "665";
+	static String elong4 = "323";
+	static String approvedmsg = "Approved Successfully";
 }
